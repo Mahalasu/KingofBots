@@ -54,8 +54,8 @@
                 style="vertical-align: middle"
               >
                 <td>{{ bot.name }}</td>
-                <td>{{ bot.createTime }}</td>
-                <td>{{ bot.lastModify }}</td>
+                <td>{{ timeShift(bot.createTime) }}</td>
+                <td>{{ timeShift(bot.lastModify) }}</td>
                 <td>
                   <button
                     type="button"
@@ -91,6 +91,7 @@ import ContentField from '@/components/ContentField'
 import { ref } from 'vue'
 import $ from 'jquery'
 import { useStore } from 'vuex'
+import moment from 'moment'
 import { domainNameProd } from '@/global'
 
 export default {
@@ -103,6 +104,9 @@ export default {
     const store = useStore()
     let bots = ref([])
     let botId = ref()
+
+    const timeShift = (originalDateStr) =>
+      moment.utc(originalDateStr).local().format('YYYY-MM-DD HH:mm:ss')
 
     const getList = () => {
       $.ajax({
@@ -145,6 +149,7 @@ export default {
       deleteBot,
       setId,
       botId,
+      timeShift,
     }
   },
 }

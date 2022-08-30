@@ -54,7 +54,7 @@
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/Mahalasu"
+                href="https://github.com/Mahalasu/KingofBots#bot-creation-instruction"
                 >instructions</a
               >
               when you are creating your own bot!

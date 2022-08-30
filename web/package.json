@@ -13,6 +13,7 @@
     "core-js": "^3.8.3",
     "generate-avatar": "^1.4.10",
     "jquery": "^3.6.0",
+    "moment": "^2.29.4",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
     "vue3-ace-editor": "^2.2.2",

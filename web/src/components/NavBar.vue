@@ -52,7 +52,7 @@
               class="nav-link"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://github.com/Mahalasu"
+              href="https://github.com/Mahalasu/KingofBots"
               >GitHub
               <span>
                 <svg
