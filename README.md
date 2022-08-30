@@ -23,6 +23,8 @@ Website Demo: https://kingofbots.org/
 ## Tech Stacks
 
 * Spring Boot
+* Spring Security
+* Mybatis
 * Java Multithreading
 * MySQL
 * Vue.js
