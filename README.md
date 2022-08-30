@@ -30,6 +30,7 @@ Website Demo: https://kingofbots.org/
 * Vue.js
 * Bootstrap
 * Docker
+* Nginx
 * WebSocket
 
 ## Bot Creation Instruction
