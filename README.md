@@ -137,7 +137,4 @@ public class Bot implements java.util.function.Supplier<Integer> {
 
 ```
 
-
-
-
-
+*Due to the history file contains some secrets so I delete all the history commits*
