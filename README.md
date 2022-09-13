@@ -32,6 +32,7 @@ Website Demo: https://kingofbots.org/
 * Docker
 * Nginx
 * WebSocket
+* Java Reflection (jOOR)
 
 ## Bot Creation Instruction
 
